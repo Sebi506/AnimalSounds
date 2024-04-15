@@ -5,3 +5,10 @@ C:\Users\seby5\source\repos\AnimalSounds\AnimalSounds\obj\Debug\AnimalSounds.csp
 C:\Users\seby5\source\repos\AnimalSounds\AnimalSounds\obj\Debug\AnimalSounds.csproj.CoreCompileInputs.cache
 C:\Users\seby5\source\repos\AnimalSounds\AnimalSounds\obj\Debug\AnimalSounds.exe
 C:\Users\seby5\source\repos\AnimalSounds\AnimalSounds\obj\Debug\AnimalSounds.pdb
+D:\Sandbox\AnimalSounds\AnimalSounds\bin\Debug\AnimalSounds.exe.config
+D:\Sandbox\AnimalSounds\AnimalSounds\bin\Debug\AnimalSounds.exe
+D:\Sandbox\AnimalSounds\AnimalSounds\bin\Debug\AnimalSounds.pdb
+D:\Sandbox\AnimalSounds\AnimalSounds\obj\Debug\AnimalSounds.csproj.AssemblyReference.cache
+D:\Sandbox\AnimalSounds\AnimalSounds\obj\Debug\AnimalSounds.csproj.CoreCompileInputs.cache
+D:\Sandbox\AnimalSounds\AnimalSounds\obj\Debug\AnimalSounds.exe
+D:\Sandbox\AnimalSounds\AnimalSounds\obj\Debug\AnimalSounds.pdb

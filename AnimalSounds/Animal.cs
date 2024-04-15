@@ -8,12 +8,37 @@ namespace AnimalSounds
 {
     internal class Animal
     {
-        private string[] animalList = { "cat", "dog", "fish", "owl", "pikachu"};
-        private string[] animalsSound = { "meow", "ham", "...", "hoot", "pika" };
+        string AnimalName;
+        List<String> AnimalSounds = new List<string>();
+
+        public Animal() { }
+
+        public Animal(string animalName)
+
+        {
+            this.AnimalName = animalName;
+
+        }
+        public Animal(string animalName, List<string> animalsounds)
+
+        {
+            this.AnimalName = animalName;
+            this.AnimalSounds = animalsounds;
+
+        }
+        public string GetAnimalName() { return AnimalName; }
+        public void SetAnimalName(string animalName) { this.AnimalName = animalName; }
+
+        public void AddSound(string soundName)
+        {
+            AnimalSounds.Add(soundName);
+        }
+
+        public void RemoveSound(string soundName) { AnimalSounds.Remove(soundName); }
 
         public void EchoAnimalSound(int position)
         {
-            Console.WriteLine("The " + animalList[position]+ " said "+ animalsSound[position]+" !");
+            Console.WriteLine("The " + AnimalName + " said " + AnimalSounds[position] + " !");
         }
     }
 }
