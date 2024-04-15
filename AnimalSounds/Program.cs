@@ -10,14 +10,33 @@ namespace AnimalSounds
     {
         static void Main(string[] args)
         {
-            Animal misteryAnimal= new Animal();
+            List<Animal> AnimalList = new List<Animal>();
 
-            misteryAnimal.EchoAnimalSound(0);
-            misteryAnimal.EchoAnimalSound(1);
-            misteryAnimal.EchoAnimalSound(2);
-            misteryAnimal.EchoAnimalSound(3);
-            misteryAnimal.EchoAnimalSound(4);
+            Animal dog = new Animal("Dog");
+            dog.AddSound("ham");
+            AnimalList.Add(dog);
 
+            Animal cat = new Animal("Cat");
+            cat.AddSound("meow");
+            AnimalList.Add(cat);
+
+            Animal fish = new Animal("Fish");
+            fish.AddSound("...");
+            AnimalList.Add(fish);
+
+            Animal owl = new Animal("Owl");
+            owl.AddSound("hoot");
+            AnimalList.Add(owl);
+
+            Animal Pikachu = new Animal("Pikachu");
+            Pikachu.AddSound("pika");
+            AnimalList.Add(Pikachu);
+
+
+            foreach (Animal a in AnimalList)
+            {
+                a.EchoAnimalSound(0);
+            }
             Console.Read();
         }
     }
